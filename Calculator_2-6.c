@@ -47,6 +47,17 @@ int main()
     else printf("Choose an operation out of list\n");
 
     getchar();
+      /*
+    printf("Stay in the menu?\n y\t n");
+    scanf_s("%c", &menuDes, 1);
+
+    if (menuDes == 'n') {
+        printf("Farewell");
+    }
+    else if (menuDes == 'y') {
+
+    }
+    */
     getchar();
 
     return 0;
