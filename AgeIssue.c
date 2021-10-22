@@ -30,6 +30,9 @@ int main()
     else if (Age % 10 == 1) {
         printf("Ей %d год\n", Age);
     }
+    else if ((Age % 100) == 11 || (Age % 100) == 12 || (Age % 100) == 13 || (Age % 100) == 14) {
+        printf("Ей %d лет\n", Age);
+    }
     else  printf("Ей %d года\n", Age);
 
     getchar();
