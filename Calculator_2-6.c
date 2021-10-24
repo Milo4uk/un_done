@@ -15,7 +15,7 @@ int main()
 
     printf("\t\tThe calculator\n\n");
 
-    printf("Insert two numbers\n");
+   do { printf("Insert two numbers\n");
     scanf_s("%lf %lf", &firstNum, &secondNum);
     getchar();
 
@@ -47,17 +47,14 @@ int main()
     else printf("Choose an operation out of list\n");
 
     getchar();
-      /*
-    printf("Stay in the menu?\n y\t n");
+     
+    printf("Stay in the menu?\n y\t n\n");
     scanf_s("%c", &menuDes, 1);
 
-    if (menuDes == 'n') {
-        printf("Farewell");
-    }
-    else if (menuDes == 'y') {
-
-    }
-    */
+      } while (menuDes == 'y' && menuDes!= 'n');
+    
+    printf("Farewell\n");
+  
     getchar();
 
     return 0;
